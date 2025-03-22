@@ -1,5 +1,5 @@
 # GoldenRecovery
-Dev files of my Golden Recovery (v2.1) mod for BG3
+Dev files of my Golden Recovery (v2.2) mod for BG3
 
 You can [download](https://github.com/GiusTex/GoldenRecovery/releases/download/2.1/GoldenRecovery_DevFiles.rar) it.
 
