@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328"/>
+	<region id="TextureAtlasInfo">
+		<node id="root">
+			<children>
+				<node id="TextureAtlasIconSize">
+					<attribute id="Height" type="int32" value="64"/>
+					<attribute id="Width" type="int32" value="64"/>
+				</node>
+				<node id="TextureAtlasPath">
+					<attribute id="Path" type="string" value="Assets/Textures/Icons/GoldenRecovery_Icons.dds"/>
+					<attribute id="UUID" type="FixedString" value="c00abf7c-0eb0-48bf-acd8-f54f9b016952"/>
+				</node>
+				<node id="TextureAtlasTextureSize">
+					<attribute id="Height" type="int32" value="64"/>
+					<attribute id="Width" type="int32" value="2048"/>
+				</node>
+			</children>
+		</node>
+	</region>
+	<region id="IconUVList">
+		<node id="root">
+			<children>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Golden_Recovery"/> 1_0
+                    <attribute id="U1" type="float" value="0.000244141"/> Left
+					<attribute id="U2" type="float" value="0.031005859"/> Right
+					<attribute id="V1" type="float" value="0.000244141"/> Top
+					<attribute id="V2" type="float" value="0.999755859"/> Bottom
+				</node>
+				<node id="IconUV">
+                   <attribute id="MapKey" type="FixedString" value="Golden_Recovery_Ring"/> 2_0
+                   <attribute id="U1" type="float" value="0.031005859"/> Left
+                   <attribute id="U2" type="float" value="0.062011718"/> Right
+                   <attribute id="V1" type="float" value="0.000244141"/> Top
+                   <attribute id="V2" type="float" value="0.999755859"/> Bottom
+               </node>
+			   <node id="IconUV">
+                   <attribute id="MapKey" type="FixedString" value="Golden_Recovery_1"/> 3_1
+                   <attribute id="U1" type="float" value="0.062011718"/> Left
+                   <attribute id="U2" type="float" value="0.093017577"/> Right
+                   <attribute id="V1" type="float" value="0.000244141"/> Top
+                   <attribute id="V2" type="float" value="0.999755859"/> Bottom
+               </node>
+			   <node id="IconUV">
+                   <attribute id="MapKey" type="FixedString" value="Golden_Recovery_2"/> 4_2
+                   <attribute id="U1" type="float" value="0.093017577"/> Left
+                   <attribute id="U2" type="float" value="0.124023436"/> Right
+                   <attribute id="V1" type="float" value="0.000244141"/> Top
+                   <attribute id="V2" type="float" value="0.999755859"/> Bottom
+               </node>
+			   <node id="IconUV">
+                   <attribute id="MapKey" type="FixedString" value="Golden_Recovery_3"/> 5_3
+                   <attribute id="U1" type="float" value="0.124023436"/> Left
+                   <attribute id="U2" type="float" value="0.155029295"/> Right
+                   <attribute id="V1" type="float" value="0.000244141"/> Top
+                   <attribute id="V2" type="float" value="0.999755859"/> Bottom
+               </node>
+			   <node id="IconUV">
+                   <attribute id="MapKey" type="FixedString" value="Golden_Recovery_4"/> 6_4
+                   <attribute id="U1" type="float" value="0.155029295"/> Left
+                   <attribute id="U2" type="float" value="0.186035154"/> Right
+                   <attribute id="V1" type="float" value="0.000244141"/> Top
+                   <attribute id="V2" type="float" value="0.999755859"/> Bottom
+               </node>
+			   <node id="IconUV">
+                   <attribute id="MapKey" type="FixedString" value="Golden_Recovery_5"/> 7_5
+                   <attribute id="U1" type="float" value="0.186035154"/> Left
+                   <attribute id="U2" type="float" value="0.217041013"/> Right
+                   <attribute id="V1" type="float" value="0.000244141"/> Top
+                   <attribute id="V2" type="float" value="0.999755859"/> Bottom
+               </node>
+			   <node id="IconUV">
+                   <attribute id="MapKey" type="FixedString" value="Golden_Recovery_6"/> 8_6
+                   <attribute id="U1" type="float" value="0.217041013"/> Left
+                   <attribute id="U2" type="float" value="0.248046872"/> Right
+                   <attribute id="V1" type="float" value="0.000244141"/> Top
+                   <attribute id="V2" type="float" value="0.999755859"/> Bottom
+               </node>
+			   <node id="IconUV">
+                   <attribute id="MapKey" type="FixedString" value="Golden_Recovery_7"/> 9_7
+                   <attribute id="U1" type="float" value="0.248046872"/> Left
+                   <attribute id="U2" type="float" value="0.279052731"/> Right
+                   <attribute id="V1" type="float" value="0.000244141"/> Top
+                   <attribute id="V2" type="float" value="0.999755859"/> Bottom
+               </node>
+			   <node id="IconUV">
+                   <attribute id="MapKey" type="FixedString" value="Golden_Recovery_8"/> 10_8
+                   <attribute id="U1" type="float" value="0.279052731"/> Left
+                   <attribute id="U2" type="float" value="0.310058590"/> Right
+                   <attribute id="V1" type="float" value="0.000244141"/> Top
+                   <attribute id="V2" type="float" value="0.999755859"/> Bottom
+               </node>
+			   <node id="IconUV">
+                   <attribute id="MapKey" type="FixedString" value="Golden_Recovery_9"/> 11_9
+                   <attribute id="U1" type="float" value="0.310058590"/> Left
+                   <attribute id="U2" type="float" value="0.341064449"/> Right
+                   <attribute id="V1" type="float" value="0.000244141"/> Top
+                   <attribute id="V2" type="float" value="0.999755859"/> Bottom
+               </node>
+			</children>
+		</node>
+	</region>
+</save>
