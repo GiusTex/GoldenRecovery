@@ -1,0 +1,8 @@
+new entry "GoldenRecovery_Ring_Of_GoldenRecovery"
+type "Armor"
+using "_Ring_Magic"
+data "RootTemplate" "bc958d63-919e-45fd-982b-d5cf2565ab4b"
+data "Rarity" "Legendary"
+data "Weight" "0.10"
+data "ValueOverride" "1200"
+data "Boosts" "UnlockSpell(Shout_GoldenRecovery)"
