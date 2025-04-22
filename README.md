@@ -10,7 +10,7 @@ Dev files of my Golden Recovery (v3.0) mod for BG3
 - Download [BG3 Multi-Tool](https://github.com/ShinyHobo/BG3-Modders-Multitool/wiki/Installation) by ShinyHobo.
 - Once you update something, drag the main folder "GoldenRecovery" to the light blue square "Drop mod workspace..." to create the mod zip. Unzip it to get the mod `.pak`.
 
-![image](https://github.com/user-attachments/assets/44b8ff84-6bd0-4000-93eb-bf5bab2552fc)
+![image](https://github.com/user-attachments/assets/21dd28ae-446d-49b7-a54d-dc8e40aca9a5)
 
 - Then drop the mod `.pak` in the mods folder:
 
