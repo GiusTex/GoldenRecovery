@@ -1,5 +1,6 @@
 # GoldenRecovery
-Dev files of my Golden Recovery (v3.0) mod for BG3
+## WIP
+Dev files of my Golden Recovery v3.0 mod for BG3. Patch 8 ready.
 
 
 ### How it works
