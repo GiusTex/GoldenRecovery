@@ -4,7 +4,7 @@ Dev files of my Golden Recovery v3.0 mod for BG3. Patch 8 ready.
 
 
 ### How it works
-- The base ring recharges spell slots for free, then when paired with [Script Extender](https://github.com/Norbyte/bg3se/releases/latest) it checks if the player has enough gold to subtract. If possible Script Extender will take the gold, if not possible it will take note of the missing gold, and will try taking it the next time the spell is cast, starting again the "loop".
+- The base ring recharges spell slots for free, then when paired with [Script Extender](https://github.com/Norbyte/bg3se/releases/latest) it checks if the player has enough gold to subtract. If possible Script Extender will take the gold, if not possible it will take note of the missing gold, and will try taking it the next time the spell is cast, starting again the "loop". The free (no gold cost) version doesn't require Script Extender, since it doesn't use it.
 - I have yet to check if patches 7-8 added spells based on gold, before there weren't any; if now there are, Script Extender could be removed.
 - The ring works by saving the debt in a config file here: `Local/Larian Studios/Baldur's Gate 3/Script Extender/GoldenRecovery.json`, and supports only 1 campaign at a time. When you start a new campaign, or if you want to play a different one, reset the debt value in the config file.
   - Tip: You can create as much copies of the config file (just name them differently from the main one) as your campaigns, and the read one will be `GoldenRecovery.json` (the main one); this way you can switch between campaigns and their config by renaming the config file.
