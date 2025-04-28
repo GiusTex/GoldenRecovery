@@ -1,7 +1,18 @@
 # GoldenRecovery
 ## WIP
-Dev files of my Golden Recovery v3.0 mod for BG3. Patch 8 ready.
+Dev files of my Golden Recovery v3.0 mod for BG3. Patch 8 now supported.
 
+### To do list:
+- [x] 10 version
+- [x] 25 version
+- [x] 50 version
+- [x] 100 version
+- [ ] Custom version
+- [ ] x1,7 version
+- [ ] Free version
+
+
+![Spell costs](https://github.com/user-attachments/assets/28649e5b-a56e-42a3-ace9-6ca67f57b8b9)
 
 ### How it works
 - The base ring recharges spell slots for free, then when paired with [Script Extender](https://github.com/Norbyte/bg3se/releases/latest) it checks if the player has enough gold to subtract. If possible Script Extender will take the gold, if not possible it will take note of the missing gold, and will try taking it the next time the spell is cast, starting again the "loop". The free (no gold cost) version doesn't require Script Extender, since it doesn't use it.
