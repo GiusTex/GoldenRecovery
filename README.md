@@ -1,6 +1,6 @@
-# GoldenRecovery
+# Golden Recovery
 ## WIP
-Dev files of my Golden Recovery v3.0 mod for BG3. Patch 8 now supported.
+Developer files of my Golden Recovery v3.0 mod for BG3. Patch 8 now supported.
 
 ### To do list:
 - [x] 10 version
