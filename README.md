@@ -20,6 +20,10 @@ Developer files of my Golden Recovery v3.0 mod for BG3. Patch 8 now supported.
 - The ring works by saving the debt in a config file here: `Local/Larian Studios/Baldur's Gate 3/Script Extender/GoldenRecovery.json`, and supports only 1 campaign at a time. When you start a new campaign, or if you want to play a different one, reset the debt value in the config file.
   - Tip: You can create as much copies of the config file (just name them differently from the main one) as your campaigns, and the read one will be `GoldenRecovery.json` (the main one); this way you can switch between campaigns and their config by renaming the config file.
 
+### Downloading the files
+- Inside each root folder (+10 folder, +25 folder, +50 folder, ...) you can find both the developer files of that version and the mod `.pak` file. You can download the zip with the `.pak` file also from [Nexus Mods](https://www.nexusmods.com/baldursgate3/mods/8322).
+- I'll upload first here the working versions, compatible with patch 8, and later on Nexus Mods, so if you want to download the mod from Nexus check if the version is updated.
+
 ### Building from Source
 - Download [BG3 Multi-Tool](https://github.com/ShinyHobo/BG3-Modders-Multitool/wiki/Installation) by ShinyHobo.
 - **Recovering folders and files from the .pak**
