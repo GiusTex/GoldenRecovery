@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="1f684fa8-c14e-4395-97b1-3445d8cb2368" version="1">Ring of Golden Recovery</content>
+	<content contentuid="5c6a8a4d-3936-4cf2-917c-8e8087c85f5d" version="1">This ring will recover any spellslot. For the right price in gold, of course.</content>
+    <content contentuid="ea8f5d0d-1541-42a7-ab1d-e6ffceb3a4bb" version="1">A powerful warmage possessed a ring that symbolized his supremacy in magic, and brought him immense wealth. It is said that his riches were both the source of his magical power and a curse that forced him to seek treasure at all costs. His obsession with accumulating wealth led to a devastating war, and his disastrous downfall became legendary.</content>
+	<content contentuid="167b3106-5f0b-4ba7-8c8b-68438bc0b4be" version="1">Golden Recovery</content>
+	<content contentuid="4ffd4ef3-d5c2-4f68-bfe5-84c1612ac474" version="1">Recovers one spent spellslot of any level, using gold. If you don't have enough, you will be indebted to it, and each time you cast a spell it will try to get your money until the debt is closed.</content>
+	<content contentuid="8d48b7a9-b74c-4463-af54-4b9dab9832a1" version="1">Speak with ring</content>
+	<content contentuid="b77021a2-e261-4c61-9124-7d50a77ecc68" version="1">Ask the ring how many coins you still owe it. Even just by talking it will try to take coins to close the debt!</content>
+    <content contentuid="h17c8b0870ea249df8e77cc1898af364f" version="1">Golden Recovery 1</content>
+	<content contentuid="f6b2d0bb-2952-458e-8b2c-6cfcad294bf6" version="1">Recovers a spent level 1 spellslot, using 25 gold coins.</content>
+    <content contentuid="h2ba1e57e6d9f4304bd5aab60fd5afe1d" version="1">Golden Recovery 2</content>
+	<content contentuid="f57a44a0-1c2c-4111-8d96-5c3033233e71" version="1">Recovers a spent level 2 spellslot, using 50 gold coins.</content>
+	<content contentuid="6f37bbdd-fab2-43c7-b515-1c730d7c3449" version="1">Golden Recovery 3</content>
+	<content contentuid="3e22275e-3410-4163-bedf-728b6ea90a9d" version="1">Recovers a spent level 3 spellslot, using 75 gold coins.</content>
+	<content contentuid="1685af51-b4e1-4eb6-8996-6590f65a731c" version="1">Golden Recovery 4</content>
+	<content contentuid="e462b72f-06be-4a05-a2aa-e9f8c18e7f98" version="1">Recovers a spent level 4 spellslot, using 100 gold coins.</content>
+	<content contentuid="e861767b-e7db-4e32-9443-78eeb514e562" version="1">Golden Recovery 5</content>
+	<content contentuid="4c122669-fc61-49ec-98da-7fe21fa097e0" version="1">Recovers a spent level 5 spellslot, using 125 gold coins.</content>
+	<content contentuid="01d3073f-e2a0-468b-b006-d0d017b087da" version="1">Golden Recovery 6</content>
+	<content contentuid="3829996a-6f88-45ab-b6f2-b3f804ec2993" version="1">Recovers a spent level 6 spellslot, using 150 gold coins.</content>
+    <content contentuid="66786a19-1704-4bcc-802c-fd5403e1ba33" version="1">Golden Recovery 7</content>
+	<content contentuid="85d33e05-293f-449d-bf1c-ec478ece2e59" version="1">Recovers a spent level 7 spellslot, using 175 gold coins.</content>
+	<content contentuid="4adfc460-6d52-472e-9b53-9c450fda693f" version="1">Golden Recovery 8</content>
+	<content contentuid="4ae40baf-bb8d-43d0-bc7e-b0a06225e008" version="1">Recovers a spent level 8 spellslot, using 200 gold coins.</content>
+	<content contentuid="5a7b902c-c777-49cf-9c0f-f14ffab2fa9e" version="1">Golden Recovery 9</content>
+	<content contentuid="98675fea-b6e2-4bb3-9053-3f63964f3a94" version="1">Recovers a spent level 9 spellslot, using 225 gold coins.</content>
+</contentList>
