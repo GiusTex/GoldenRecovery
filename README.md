@@ -11,10 +11,18 @@ Dev files of my Golden Recovery v3.0 mod for BG3. Patch 8 ready.
 
 ### Building from Source
 - Download [BG3 Multi-Tool](https://github.com/ShinyHobo/BG3-Modders-Multitool/wiki/Installation) by ShinyHobo.
-- Once you update something, drag the main folder "GoldenRecovery" to the light blue square "Drop mod workspace..." to create the mod zip. Unzip it to get the mod `.pak`.
+- **Recovering folders and files from the .pak**
+  - Drag the `.pak` file to the light blue square "Drop mod workspace..." to create in `bg3-modders-multitool\UnpackedMods` the mod folder with its files inside.
 
-![image](https://github.com/user-attachments/assets/21dd28ae-446d-49b7-a54d-dc8e40aca9a5)
+  ![image](https://github.com/user-attachments/assets/21dd28ae-446d-49b7-a54d-dc8e40aca9a5)
 
-- Then drop the mod `.pak` in the mods folder:
+  - Edit what you need, then pack again all into a `.pak` file.
+  
+- **Creating the mod .pak file**
+  - Once you updated something, drag the root folder (the one containing "Mods" and "Public") to the light blue square "Drop mod workspace..." to create the mod zip. Unzip it to get the mod `.pak`.
 
-![image](https://github.com/user-attachments/assets/eb519079-7409-49af-ba73-fe2fc5d48d5c)
+  ![image](https://github.com/user-attachments/assets/21dd28ae-446d-49b7-a54d-dc8e40aca9a5)
+
+  - Then drop the mod `.pak` in the mods folder:
+
+  ![image](https://github.com/user-attachments/assets/eb519079-7409-49af-ba73-fe2fc5d48d5c)
