@@ -29,6 +29,7 @@ Developer files of my Golden Recovery v3.0 mod for BG3. Patch 8 now supported.
 
 ### Other info
 - The mod works both on new and existing saves.
+- Use the mod only if you are sure, you can no longer remove the mod when you create a save file with the mod (you can load an older one without the mod though, or start a new campaign).
 - Works in multiplayer; as always, make sure everyone has the exact same mods, mod versions, and load order. _Only the host_ though _can choose custom values/options_ before starting the game; the other players will find themselves with his chosen settings.
 
 It seems it could (?) exists a way to change this host-only thing (I'm thinking about [EasyCheat](https://www.nexusmods.com/baldursgate3/mods/9827) host-only cheat, but I'm not sure it does what I think); anyway, I don't plan as of now of looking into it.
@@ -48,10 +49,10 @@ It seems it could (?) exists a way to change this host-only thing (I'm thinking 
     The mods folder
     
 ### Uninstall
-- Remove the Golden Recovery ring from any character still having it;
-- then (choose 1 of the options):
+- Choose 1 of the options:
    - (Manual): in the game, from Mod Manager and Installed, select the Golden Recovery mod and the Uninstall button;
    - (B.G.3 Mod Manager): select the Golden Recovery mod, right click and select delete it, select permanent, then again save and export mod load order.
+- Load a previous save where the golden recovery ring wasn't installed yet.
 
 ### Build from source
 - Download [BG3 Multi-Tool](https://github.com/ShinyHobo/BG3-Modders-Multitool/wiki/Installation) by ShinyHobo.
