@@ -15,6 +15,20 @@ Developer files of my Golden Recovery v3.0 mod for BG3. Patch 8 now supported.
 - The ring recharges spell slots and warlock spell slots when the player has one of the custom Rich I/II/... statuses. [Script extender](https://github.com/Norbyte/bg3se/releases/latest) retrieves them by [Mod Configuration Menu](https://www.nexusmods.com/baldursgate3/mods/9162), where the user can set his preferred cost amount, be it 0 or more. **NOTE**: When changing values/option, you need to close and open again the game; you don't need to start a new save, just close and open the game.
 - Script extender checks the player/party's gold each time an object is added or removed from his inventory, then it gives him the highest possible custom status if possible otherwise it lowers/removes it.
 
+<img width="869" height="217" alt="CheckBox" src="https://github.com/user-attachments/assets/104147de-7f21-47b9-aa7c-1dea7aa0e06b" />
+
+`Use whole party money` checkbox. It's in italian because I did't want to wait for Steam to check and update the game files, but the english localization is already included.
+
+<img width="875" height="556" alt="Sliders" src="https://github.com/user-attachments/assets/78ed57d4-ed28-4af0-ab5e-4ec49a043e82" />
+
+`Golden Recovery I/II/... IX` spell cost custom sliders. The player has to close the game and reopen it (just close and open again, you don't need to make new saves) for the changes to take effect.
+
+<img width="817" height="379" alt="OtherInfo" src="https://github.com/user-attachments/assets/6a853674-e602-4f57-9afc-4d32dfcbce75" />
+
+- 1: When the character has enough gold, a custom condition is added: Rich I/II/etc, that turns on the ring;
+- 2: Dynamic tooltip (!), that shows each spell's cost based on the number the user decided, if he edited it, otherwise it shows the above default values;
+- 3: Now you can actually see (!) what tiers you have access to.
+
 ### Other info
 - The mod works both on new and existing saves.
 
