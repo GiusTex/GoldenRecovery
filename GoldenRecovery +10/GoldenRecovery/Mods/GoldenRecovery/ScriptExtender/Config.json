@@ -1,5 +1,0 @@
-{
-    "RequiredVersion": 14,
-    "ModTable": "GoldenRecovery",
-    "FeatureFlags": [ "Lua" ]
-}

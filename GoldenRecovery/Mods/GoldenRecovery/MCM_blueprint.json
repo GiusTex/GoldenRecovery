@@ -1,0 +1,199 @@
+{
+    "SchemaVersion": 1,
+    "ModName": "Golden Recovery",
+    "Tabs": [
+        {
+            "TabId": "GeneralSettingsTab",
+            "TabName": "General Settings",
+            "Handles": {
+                "NameHandle": "h8634ed1fg35b2g4b05gb11dgb0b3630baba1"
+            },
+            "Sections": [
+                {
+                    "SectionId": "WarningSection",
+                    "SectionName": "Important Note",
+                    "Handles": {
+                        "NameHandle": "hda52ffe4g71f6g4272gb5b5g9def2768e64d"
+                    },
+                    "Settings": [
+                        {
+                            "Id": "warningMessage",
+                            "Name": "WARNING",
+                            "Type": "text",
+                            "Description": "NOTE: Every setting in here only applies on booting up the game. After changing anything, must RESTART game to take effect. \nThis does not mean you need to start a new save, you can change settings mid-playthrough as long as you reboot the game.",
+                            "Default": "NOTE",
+                            "Handles": {
+                                "NameHandle": "h28267405g03cbg402eg9669g1c89008b803e",
+                                "DescriptionHandle": "h68ede33dg7011g4187gaa65gb7cead2485fe"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "SectionId": "SetValues",
+                    "SectionName": "Set Values",
+                    "Handles": {
+                        "NameHandle": "h3bdc5292g6a68g4a70g9fa4g9620230aa851"
+                    },
+                    "Settings": [
+                        {
+                            "Id": "useWholePartyMoney",
+                            "Name": "Use Whole Party Money",
+                            "Type": "checkbox",
+                            "Description": "Toggle this to check money from whole party instead of just the caster.\nIf toggled and the caster doesn't have enough money, they will be taken from the next party member with enough money.\nIf toggled off and the caster doesn't have enough money but the party does, the spell will still fail.",
+                            "Default": false,
+                            "Handles": {
+                                "NameHandle": "h8b347f29g8534g4a9fg9934gae6130788915",
+                                "DescriptionHandle": "ha158497fgc5f7g4025gb0b9g563b30c7a4e1"
+                            }
+                        },
+                        {
+                            "Id": "GoldenRecovery1",
+                            "Name": "Golden Recovery 1",
+                            "Type": "slider_int",
+                            "Description": "Recovers a spent level 1 spellslot, using 25 gold coins. Set 0 to make spell slot restoration free. \nCtrl+click to enter a value manually.",
+                            "Default": 25,
+                            "Options": {
+                                "Min": 0,
+                                "Max": 3000,
+                                "Step": 1
+                            },
+                            "Handles": {
+                                "NameHandle": "h22dc0e40gaaa5g4a14g9e15g6f43fc519aa7",
+                                "DescriptionHandle": "he99c7b6eg74b0g461ag8a74gd6f5587543c9"
+                            }
+                        },
+                        {
+                            "Id": "GoldenRecovery2",
+                            "Name": "Golden Recovery 2",
+                            "Type": "slider_int",
+                            "Description": "Recovers a spent level 2 spellslot, using 75 gold coins. Set 0 to make spell slot restoration free. \nCtrl+click to enter a value manually.",
+                            "Default": 75,
+                            "Options": {
+                                "Min": 0,
+                                "Max": 3000,
+                                "Step": 1
+                            },
+                            "Handles": {
+                                "NameHandle": "h35fc803dg1d0bg443ag8916g9cd9674d6a00",
+                                "DescriptionHandle": "h70b90f79gf1e2g4b0fga9d0gaf7bc988d896"
+                            }
+                        },
+                        {
+                            "Id": "GoldenRecovery3",
+                            "Name": "Golden Recovery 3",
+                            "Type": "slider_int",
+                            "Description": "Recovers a spent level 3 spellslot, using 150 gold coins. Set 0 to make spell slot restoration free. \nCtrl+click to enter a value manually.",
+                            "Default": 150,
+                            "Options": {
+                                "Min": 0,
+                                "Max": 3000,
+                                "Step": 1
+                            },
+                            "Handles": {
+                                "NameHandle": "h75204067gb686g4487g99d1g949377273e61",
+                                "DescriptionHandle": "h8108d64dge38fg4c3dg88adg40840e60a5db"
+                            }
+                        },
+                        {
+                            "Id": "GoldenRecovery4",
+                            "Name": "Golden Recovery 4",
+                            "Type": "slider_int",
+                            "Description": "Recovers a spent level 4 spellslot, using 360 gold coins. Set 0 to make spell slot restoration free. \nCtrl+click to enter a value manually.",
+                            "Default": 360,
+                            "Options": {
+                                "Min": 0,
+                                "Max": 3000,
+                                "Step": 1
+                            },
+                            "Handles": {
+                                "NameHandle": "ha2610433g56c2g4019g8c87g5c3d228e8a05",
+                                "DescriptionHandle": "hbc70def3g553fg4cbfgb082g1c2f388d9946"
+                            }
+                        },
+                        {
+                            "Id": "GoldenRecovery5",
+                            "Name": "Golden Recovery 5",
+                            "Type": "slider_int",
+                            "Description": "Recovers a spent level 5 spellslot, using 520 gold coins. Set 0 to make spell slot restoration free. \nCtrl+click to enter a value manually.",
+                            "Default": 520,
+                            "Options": {
+                                "Min": 0,
+                                "Max": 3000,
+                                "Step": 1
+                            },
+                            "Handles": {
+                                "NameHandle": "h386abe38gc6c9g4cc5ga05fg661c8b21979d",
+                                "DescriptionHandle": "hc9fdcda1gb798g40c1g99a4gc659627c03ea"
+                            }
+                        },
+                        {
+                            "Id": "GoldenRecovery6",
+                            "Name": "Golden Recovery 6",
+                            "Type": "slider_int",
+                            "Description": "Recovers a spent level 6 spellslot, using 700 gold coins. Set 0 to make spell slot restoration free. \nCtrl+click to enter a value manually.",
+                            "Default": 700,
+                            "Options": {
+                                "Min": 0,
+                                "Max": 3000,
+                                "Step": 1
+                            },
+                            "Handles": {
+                                "NameHandle": "h20921ac4gfe15g4b41gb719g031d0c4fb541",
+                                "DescriptionHandle": "h2abaa5b1gd2f6g405agb6ffg67df28d25679"
+                            }
+                        },
+                        {
+                            "Id": "GoldenRecovery7",
+                            "Name": "Golden Recovery 7",
+                            "Type": "slider_int",
+                            "Description": "Recovers a spent level 7 spellslot, using 820 gold coins. Set 0 to make spell slot restoration free. \nCtrl+click to enter a value manually.",
+                            "Default": 820,
+                            "Options": {
+                                "Min": 0,
+                                "Max": 3000,
+                                "Step": 1
+                            },
+                            "Handles": {
+                                "NameHandle": "hbc78b4f8g50b3g46a8gbe82gb8fe6a68d652",
+                                "DescriptionHandle": "hf61a85dagd5ceg4193g900egd5a26bedfe63"
+                            }
+                        },
+                        {
+                            "Id": "GoldenRecovery8",
+                            "Name": "Golden Recovery 8",
+                            "Type": "slider_int",
+                            "Description": "Recovers a spent level 8 spellslot, using 960 gold coins. Set 0 to make spell slot restoration free. \nCtrl+click to enter a value manually.",
+                            "Default": 960,
+                            "Options": {
+                                "Min": 0,
+                                "Max": 3000,
+                                "Step": 1
+                            },
+                            "Handles": {
+                                "NameHandle": "he07ffcbdg2ee6g4551g8559gc4520873f1ec",
+                                "DescriptionHandle": "heaa715e3g2c7fg479fg9562gf07749fc04fc"
+                            }
+                        },
+                        {
+                            "Id": "GoldenRecovery9",
+                            "Name": "Golden Recovery 9",
+                            "Type": "slider_int",
+                            "Description": "Recovers a spent level 9 spellslot, using 1100 gold coins. Set 0 to make spell slot restoration free. \nCtrl+click to enter a value manually.",
+                            "Default": 1100,
+                            "Options": {
+                                "Min": 0,
+                                "Max": 3000,
+                                "Step": 1
+                            },
+                            "Handles": {
+                                "NameHandle": "h2081ecb1gcd56g484egb0bag39a5e96574ad",
+                                "DescriptionHandle": "h4462c2d2g35b5g4859ga476g1f0c3e1e76de"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
