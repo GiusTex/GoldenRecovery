@@ -27,10 +27,10 @@ Developer files of my Golden Recovery v3.0 mod for BG3. Patch 8 now supported.
     The mods folder
     
   - ([Baldur's Gate 3 Mod Manager](https://github.com/LaughingLeader/BG3ModManager/releases/latest) auto install [[setup here](https://github.com/laughingleader/bg3modmanager#setup)]) drop the `.zip` in Baldur's Gate 3 Mod Manager, check the mod is in the left tab (active mods) instead of the right tab (turned off mods), drag the Golden Recovery mod under the Mod Configuration Menu mod, save and export the load order, then start the game.
+    
+    <img width="787" height="147" alt="BG3_MM_Save+ExportButtons" src="https://github.com/user-attachments/assets/a1b63512-012f-4bbd-b3df-e8b8d945340a" />
 
-<img width="787" height="147" alt="BG3_MM_Save+ExportButtons" src="https://github.com/user-attachments/assets/a1b63512-012f-4bbd-b3df-e8b8d945340a" />
-
-Save and Export buttons
+    Save and Export buttons
 
 ### Uninstall
 - Remove the Golden Recovery ring from any character still having it;
