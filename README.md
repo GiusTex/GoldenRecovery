@@ -5,11 +5,9 @@ Developer files of my Golden Recovery v3.0 mod for BG3. Patch 8 now supported.
 - Patch 8 ready, the great overhaul;
 - Added condition requirement to cast spells;
 - Removed gold debt;
-- Added interactive spell cost sliders thanks to MCM.
-- Added checkbox to check and retrieve gold from a single character or the whole party.
-
-### To do list
-- [ ] Check multiplayer compatibility
+- Added interactive spell cost sliders thanks to MCM;
+- Added checkbox to check and retrieve gold from a single character or the whole party;
+- Works in multiplayer.
 
 ### How it works
 - The ring recharges spell slots and warlock spell slots when the player has one of the custom Rich I/II/... statuses. [Script extender](https://github.com/Norbyte/bg3se/releases/latest) retrieves them by [Mod Configuration Menu](https://www.nexusmods.com/baldursgate3/mods/9162), where the user can set his preferred cost amount, be it 0 or more. **NOTE**: When changing values/option, you need to close and open again the game; you don't need to start a new save, just close and open the game.
@@ -31,6 +29,9 @@ Developer files of my Golden Recovery v3.0 mod for BG3. Patch 8 now supported.
 
 ### Other info
 - The mod works both on new and existing saves.
+- Works in multiplayer; as always, make sure everyone has the exact same mods, mod versions, and load order. _Only the host_ though _can choose custom values/options_ before starting the game; the other players will find themselves with his chosen settings.
+
+It seems it could (?) exists a way to change this host-only thing (I'm thinking about [EasyCheat](https://www.nexusmods.com/baldursgate3/mods/9827) host-only cheat, but I'm not sure it does what I think); anyway, I don't plan as of now of looking into it.
 
 ### Install
 - Install [Mod Configuration Menu](https://www.nexusmods.com/baldursgate3/mods/9162), see Installation paragraph, then install [Script Extender](https://github.com/Norbyte/bg3se/releases/latest), see Installation paragraph again for install info.
