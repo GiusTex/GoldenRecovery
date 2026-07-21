@@ -1,43 +1,55 @@
 # Golden Recovery
-## WIP
 Developer files of my Golden Recovery v3.0 mod for BG3. Patch 8 now supported.
 
-### To do list:
-- [x] 10 version
-- [x] 25 version
-- [x] 50 version
-- [x] 100 version
-- [ ] Custom version
-- [ ] x1,7 version
-- [ ] Free version
+### Updates:
+- Patch 8 ready, the great overhaul;
+- Added condition requirement to cast spells;
+- Removed gold debt;
+- Added interactive spell cost sliders thanks to MCM.
+- Added checkbox to check and retrieve gold from a single character or the whole party.
 
-
-![Spell costs](https://github.com/user-attachments/assets/28649e5b-a56e-42a3-ace9-6ca67f57b8b9)
+### To do list
+- [ ] Check multiplayer compatibility
 
 ### How it works
-- The base ring recharges spell slots for free, then when paired with [Script Extender](https://github.com/Norbyte/bg3se/releases/latest) it checks if the player has enough gold to subtract. If possible Script Extender will take the gold, if not possible it will take note of the missing gold, and will try taking it the next time the spell is cast, starting again the "loop". The free (no gold cost) version doesn't require Script Extender, since it doesn't use it.
-- I have yet to check if patches 7-8 added spells based on gold, before there weren't any; if now there are, Script Extender could be removed.
-- The ring works by saving the debt in a config file here: `Local/Larian Studios/Baldur's Gate 3/Script Extender/GoldenRecovery.json`, and supports only 1 campaign at a time. When you start a new campaign, or if you want to play a different one, reset the debt value in the config file.
-  - Tip: You can create as much copies of the config file (just name them differently from the main one) as your campaigns, and the read one will be `GoldenRecovery.json` (the main one); this way you can switch between campaigns and their config by renaming the config file.
+- The ring recharges spell slots and warlock spell slots when the player has one of the custom Rich I/II/... statuses. [Script extender](https://github.com/Norbyte/bg3se/releases/latest) retrieves them by [Mod Configuration Menu](https://www.nexusmods.com/baldursgate3/mods/9162), where the user can set his preferred cost amount, be it 0 or more. **NOTE**: When changing values/option, you need to close and open again the game; you don't need to start a new save, just close and open the game.
+- Script extender checks the player/party's gold each time an object is added or removed from his inventory, then it gives him the highest possible custom status if possible otherwise it lowers/removes it.
 
-### Downloading the files
-- Inside each root folder (+10 folder, +25 folder, +50 folder, ...) you can find both the developer files of that version and the mod `.pak` file. You can download the zip with the `.pak` file also from [Nexus Mods](https://www.nexusmods.com/baldursgate3/mods/8322).
-- I'll upload first here the working versions, compatible with patch 8, and later on Nexus Mods, so if you want to download the mod from Nexus check if the version is updated.
+### Other info
+- The mod works both on new and existing saves.
 
-### Building from Source
+### Install
+- Install [Mod Configuration Menu](https://www.nexusmods.com/baldursgate3/mods/9162), see Installation paragraph, then install [Script Extender](https://github.com/Norbyte/bg3se/releases/latest), see Installation paragraph again for install info.
+- Download the Golden Recovery zip from the [releases](https://github.com/GiusTex/GoldenRecovery/releases/latest), then do 1 of the following options:
+  - (Manual install) extract the `.pak` in `%LOCALAPPDATA%\Larian Studios\Baldur's Gate 3\Mods`, then in the game from (?) put the Golden Recovery mod under the Mod Configuration Menu mod;
+      ![image](https://github.com/user-attachments/assets/eb519079-7409-49af-ba73-fe2fc5d48d5c)
+
+    The mods folder
+    
+  - ([Baldur's Gate 3 Mod Manager](https://github.com/LaughingLeader/BG3ModManager/releases/latest) auto install [[setup here](https://github.com/laughingleader/bg3modmanager#setup)]) drop the `.zip` in Baldur's Gate 3 Mod Manager, check the mod is in the left tab (active mods) instead of the right tab (turned off mods), drag the Golden Recovery mod under the Mod Configuration Menu mod, save and export the load order, then start the game.
+
+<img width="787" height="147" alt="BG3_MM_Save+ExportButtons" src="https://github.com/user-attachments/assets/a1b63512-012f-4bbd-b3df-e8b8d945340a" />
+
+Save and Export buttons
+
+### Uninstall
+- Remove the Golden Recovery ring from any character still having it;
+- then (choose 1 of the options):
+   - (Manual): from inside the game, select the Golden Recovery mod and delete it;
+   - (B.G.3 Mod Manager): select the Golden Recovery mod, right click and select delete it, select permanent, then again save and export mod load order.
+
+### Build from source
 - Download [BG3 Multi-Tool](https://github.com/ShinyHobo/BG3-Modders-Multitool/wiki/Installation) by ShinyHobo.
-- **Recovering folders and files from the .pak**
-  - Drag the `.pak` file to the light blue square "Drop mod workspace..." to create in `bg3-modders-multitool\UnpackedMods` the mod folder with its files inside.
+- Edit what you need.
+- When done, drag the root "Golden Recovery" folder (the one containing "Mods" and "Public") to the light blue square "Drop mod workspace..." to create the mod zip.
+- See **Install** to see how to install.
 
   ![image](https://github.com/user-attachments/assets/21dd28ae-446d-49b7-a54d-dc8e40aca9a5)
 
-  - Edit what you need, then pack again all into a `.pak` file.
-  
-- **Creating the mod .pak file**
-  - Once you updated something, drag the root folder (the one containing "Mods" and "Public") to the light blue square "Drop mod workspace..." to create the mod zip. Unzip it to get the mod `.pak`.
-
-  ![image](https://github.com/user-attachments/assets/21dd28ae-446d-49b7-a54d-dc8e40aca9a5)
-
-  - Then drop the mod `.pak` in the mods folder:
-
-  ![image](https://github.com/user-attachments/assets/eb519079-7409-49af-ba73-fe2fc5d48d5c)
+### Credits
+- [Mod Configuration Menu](https://wiki.bg3.community/Tutorials/Mod-Frameworks/mod-configuration-menu) documentation;
+- [BG3 Modding Comunity](https://wiki.bg3.community/) Wiki;
+- [Baldur's Gate 3 Wiki: Modding](https://bg3.wiki/wiki/Modding:Modding);
+- Life savings, old, reddit posts;
+- An earlier version of [Gold Digger](https://www.nexusmods.com/baldursgate3/mods/2225) mod, for the logic to check and manipulate gold from the party;
+- Microsoft Copilot (for most of the code in the .lua file, once I found the right working ideas in the above links).
