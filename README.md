@@ -62,6 +62,9 @@ It seems it could (?) exists a way to change this host-only thing (I'm thinking 
 
   ![image](https://github.com/user-attachments/assets/21dd28ae-446d-49b7-a54d-dc8e40aca9a5)
 
+### Possible Bugs
+If by chance the Rich status gets removed but you still have enough money, drop something on the ground/pick something from the ground (money, food, junk, whatever), this will trigger the script to check your gold and will assign you again the Rich status.
+
 ### Credits
 - [Mod Configuration Menu](https://wiki.bg3.community/Tutorials/Mod-Frameworks/mod-configuration-menu) documentation;
 - [BG3 Modding Comunity](https://wiki.bg3.community/) Wiki;
