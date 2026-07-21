@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+<content contentuid="h8634ed1fg35b2g4b05gb11dgb0b3630baba1" version="1">Impostazioni Generali</content>
+	<content contentuid="hda52ffe4g71f6g4272gb5b5g9def2768e64d" version="1">Note Importanti</content>
+	<content contentuid="h28267405g03cbg402eg9669g1c89008b803e" version="1">ATTEZIONE</content>
+	<content contentuid="h68ede33dg7011g4187gaa65gb7cead2485fe" version="1">NOTE: Ogni impostazione qui viene applicata solo all'avvio del gioco. Dopo qualunque modifica, bisogna RIAVVIARE il gioco perchè le modifiche abbiano effetto. 
+Questo non significa che devi iniziare un nuovo salvataggio, puoi cambiare le impostazioni in qualunque momento della partita fintanto che chiudi e riavvi il gioco.</content>
+	<content contentuid="h3bdc5292g6a68g4a70g9fa4g9620230aa851" version="1">Imposta Valori</content>
+	
+	<content contentuid="h22dc0e40gaaa5g4a14g9e15g6f43fc519aa7" version="1">Ricarica Aurea 1</content>
+	<content contentuid="he99c7b6eg74b0g461ag8a74gd6f5587543c9" version="1">Recupera uno slot incantesimo di livello 1, al costo default di 25 monete d'oro. Imposta 0 per rendere gratis la ricarica di incantesimi. 
+Ctrl+click per immettere un valore manualmente.</content>
+    <content contentuid="h35fc803dg1d0bg443ag8916g9cd9674d6a00" version="1">Ricarica Aurea 2</content>
+	<content contentuid="h70b90f79gf1e2g4b0fga9d0gaf7bc988d896" version="1">Recupera uno slot incantesimo di livello 2, al costo default di 75 monete d'oro. Imposta 0 per rendere gratis la ricarica di incantesimi. 
+Ctrl+click per immettere un valore manualmente.</content>
+    <content contentuid="h75204067gb686g4487g99d1g949377273e61" version="1">Ricarica Aurea 3</content>
+	<content contentuid="h8108d64dge38fg4c3dg88adg40840e60a5db" version="1">Recupera uno slot incantesimo di livello 3, al costo default di 150 monete d'oro. Imposta 0 per rendere gratis la ricarica di incantesimi. 
+Ctrl+click per immettere un valore manualmente.</content>
+    <content contentuid="ha2610433g56c2g4019g8c87g5c3d228e8a05" version="1">Ricarica Aurea 4</content>
+	<content contentuid="hbc70def3g553fg4cbfgb082g1c2f388d9946" version="1">Recupera uno slot incantesimo di livello 4, al costo default di 360 monete d'oro. Imposta 0 per rendere gratis la ricarica di incantesimi. 
+Ctrl+click per immettere un valore manualmente.</content>
+    <content contentuid="h386abe38gc6c9g4cc5ga05fg661c8b21979d" version="1">Ricarica Aurea 5</content>
+	<content contentuid="hc9fdcda1gb798g40c1g99a4gc659627c03ea" version="1">Recupera uno slot incantesimo di livello 5, al costo default di 520 monete d'oro. Imposta 0 per rendere gratis la ricarica di incantesimi. 
+Ctrl+click per immettere un valore manualmente.</content>
+    <content contentuid="h20921ac4gfe15g4b41gb719g031d0c4fb541" version="1">Ricarica Aurea 6</content>
+	<content contentuid="h2abaa5b1gd2f6g405agb6ffg67df28d25679" version="1">Recupera uno slot incantesimo di livello 6, al costo default di 700 monete d'oro. Imposta 0 per rendere gratis la ricarica di incantesimi. 
+Ctrl+click per immettere un valore manualmente.</content>
+    <content contentuid="hbc78b4f8g50b3g46a8gbe82gb8fe6a68d652" version="1">Ricarica Aurea 7</content>
+	<content contentuid="hf61a85dagd5ceg4193g900egd5a26bedfe63" version="1">Recupera uno slot incantesimo di livello 7, al costo default di 820 monete d'oro. Imposta 0 per rendere gratis la ricarica di incantesimi. 
+Ctrl+click per immettere un valore manualmente.</content>
+    <content contentuid="he07ffcbdg2ee6g4551g8559gc4520873f1ec" version="1">Ricarica Aurea 8</content>
+	<content contentuid="heaa715e3g2c7fg479fg9562gf07749fc04fc" version="1">Recupera uno slot incantesimo di livello 8, al costo default di 960 monete d'oro. Imposta 0 per rendere gratis la ricarica di incantesimi. 
+Ctrl+click per immettere un valore manualmente.</content>
+    <content contentuid="h2081ecb1gcd56g484egb0bag39a5e96574ad" version="1">Ricarica Aurea 9</content>
+	<content contentuid="h4462c2d2g35b5g4859ga476g1f0c3e1e76de" version="1">Recupera uno slot incantesimo di livello 9, al costo default di 1100 monete d'oro. Imposta 0 per rendere gratis la ricarica di incantesimi. 
+Ctrl+click per immettere un valore manualmente.</content>
+    <content contentuid="h8b347f29g8534g4a9fg9934gae6130788915" version="1">Usa i Soldi dell'intero Gruppo</content>
+	<content contentuid="ha158497fgc5f7g4025gb0b9g563b30c7a4e1" version="1">Attiva per controllare i soldi dall'intero gruppo invece di limitarsi a chi ha lanciato l'incantesimo.
+Se attivato e chi ha lanciato l'incantesimo non ha abbastanza soldi, essi saranno presi dal prossimo membro del gruppo con abbastanza soldi.
+Se disattivato e chi ha lanciato l'incantesimo non ha abbastanza soldi ma il resto del gruppo ne ha, l'incantesimo fallirà lo stesso.</content>
+
+	<content contentuid="1f684fa8-c14e-4395-97b1-3445d8cb2368" version="1">Anello della Ricarica Aurea</content>
+	<content contentuid="5c6a8a4d-3936-4cf2-917c-8e8087c85f5d" version="1">Questo anello ricaricherà un qualsiasi slot incantesimo. Per il giusto prezzo in oro, ovviamente.</content>
+    <content contentuid="ea8f5d0d-1541-42a7-ab1d-e6ffceb3a4bb" version="1">Un potente mago da guerra possedeva un anello che simboleggiava la sua supremazia nella magia, e gli fruttò immense ricchezze. Si narra che le sue ricchezze fossero sia fonte del suo potere magico che di una maledizione che lo costringeva a cercare tesori a ogni costo. La sua ossessione per l’accumulo di ricchezze portò a una guerra devastante e la sua rovinosa caduta divenne leggendaria.</content>
+	<content contentuid="167b3106-5f0b-4ba7-8c8b-68438bc0b4be" version="1">Ricarica aurea</content>
+	<content contentuid="4ffd4ef3-d5c2-4f68-bfe5-84c1612ac474" version="1">Recupera uno slot incantesimo speso di qualsiasi livello, usando oro. Se non ne hai abbastanza, avrai un debito con esso, e ogni volta che lancerai una magia cercherà di prenderti le monete fino a che il debito non sarà chiuso.</content>
+	<content contentuid="8d48b7a9-b74c-4463-af54-4b9dab9832a1" version="1">Parla con l'anello</content>
+	<content contentuid="b77021a2-e261-4c61-9124-7d50a77ecc68" version="1">Chiedi all'anello quante monete gli devi ancora. Anche solo parlandoci cercherà di prenderti monete per chiudere il debito!</content>
+	
+	<content contentuid="h17c8b0870ea249df8e77cc1898af364f" version="1">Ricarica Aurea 1</content>
+	<content contentuid="f6b2d0bb-2952-458e-8b2c-6cfcad294bf6" version="1">Recupera uno slot incantesimo di livello 1, al costo di [1] monete d'oro.</content>
+    <content contentuid="h2ba1e57e6d9f4304bd5aab60fd5afe1d" version="1">Ricarica Aurea 2</content>
+	<content contentuid="f57a44a0-1c2c-4111-8d96-5c3033233e71" version="1">Recupera uno slot incantesimo di livello 2, al costo di [1] monete d'oro.</content>
+	<content contentuid="6f37bbdd-fab2-43c7-b515-1c730d7c3449" version="1">Ricarica Aurea 3</content>
+	<content contentuid="3e22275e-3410-4163-bedf-728b6ea90a9d" version="1">Recupera uno slot incantesimo di livello 3, al costo di [1] monete d'oro.</content>
+	<content contentuid="1685af51-b4e1-4eb6-8996-6590f65a731c" version="1">Ricarica Aurea 4</content>
+	<content contentuid="e462b72f-06be-4a05-a2aa-e9f8c18e7f98" version="1">Recupera uno slot incantesimo di livello 4, al costo di [1] monete d'oro.</content>
+	<content contentuid="e861767b-e7db-4e32-9443-78eeb514e562" version="1">Ricarica Aurea 5</content>
+	<content contentuid="4c122669-fc61-49ec-98da-7fe21fa097e0" version="1">Recupera uno slot incantesimo di livello 5, al costo di [1] monete d'oro.</content>
+	<content contentuid="01d3073f-e2a0-468b-b006-d0d017b087da" version="1">Ricarica Aurea 6</content>
+	<content contentuid="3829996a-6f88-45ab-b6f2-b3f804ec2993" version="1">Recupera uno slot incantesimo di livello 6, al costo di [1] monete d'oro.</content>
+    <content contentuid="66786a19-1704-4bcc-802c-fd5403e1ba33" version="1">Ricarica Aurea 7</content>
+	<content contentuid="85d33e05-293f-449d-bf1c-ec478ece2e59" version="1">Recupera uno slot incantesimo di livello 7, al costo di [1] monete d'oro.</content>
+	<content contentuid="4adfc460-6d52-472e-9b53-9c450fda693f" version="1">Ricarica Aurea 8</content>
+	<content contentuid="4ae40baf-bb8d-43d0-bc7e-b0a06225e008" version="1">Recupera uno slot incantesimo di livello 8, al costo di [1] monete d'oro.</content>
+	<content contentuid="5a7b902c-c777-49cf-9c0f-f14ffab2fa9e" version="1">Ricarica Aurea 9</content>
+	<content contentuid="98675fea-b6e2-4bb3-9053-3f63964f3a94" version="1">Recupera uno slot incantesimo di livello 9, al costo di [1] monete d'oro.</content>
+
+	<content contentuid="h48d578feg66a2g48bag9934ga49fd93c0784" version="1">RICCO I</content>
+    <content contentuid="hd5e59c76g9904g4eb7g978fg0d97351b9c5f" version="1">Sei ancora praticamente povero.</content>
+	<content contentuid="h504c13d3gd6dcg4352g8b06g0aff8f9701b6" version="1">RICCO II</content>
+    <content contentuid="h8ac44330g8892g4442ga56ega3bf224f2628" version="1">Sei leggermente meglio di un povero.</content>
+	<content contentuid="h063103fdgb5d5g4213ga448g2620daf38048" version="1">RICCO III</content>
+    <content contentuid="h4d564263gb6c6g43feg9a1dgd60095ccbccb" version="1">Stai iniziando il percorso verso la ricchezza.</content>
+	<content contentuid="h14771223gf4d0g4ff2g97c3gdb48c149737e" version="1">RICCO IV</content>
+    <content contentuid="h7bc90855g8f80g427fg8fc4g0ec235f72736" version="1">Sei leggermente ricco.</content>
+	<content contentuid="h710c45c1ge777g49e5g82ffgc664ea284994" version="1">RICCO V</content>
+    <content contentuid="ha3609c77gce2eg4fffgad0fg729c80a41bda" version="1">Sei ricco.</content>
+	<content contentuid="h09cd3fb7g6ed0g4da5g83e7g58b74ce40f27" version="1">RICCO VI</content>
+    <content contentuid="h630902b6g62abg4e69g9c93gcc5161881774" version="1">Sei molto ricco.</content>
+	<content contentuid="hbb2eb912gdd7eg48d5g932bg24b0ad9e1413" version="1">RICCO VII</content>
+    <content contentuid="h15d82ea5gcbf7g4f0bg804dgd07b27ef81b5" version="1">Sei estremamente ricco.</content>
+	<content contentuid="h8f32b440g66cdg471ag8e11g5b15c1ffc943" version="1">RICCO VIII</content>
+    <content contentuid="h4cff1133g7ce7g4730g8e91gf5234a194207" version="1">Sei schifosamente ricco.</content>
+	<content contentuid="hdb574e37gd5b0g4a8egb374g800383922285" version="1">RICCO IX</content>
+    <content contentuid="h5f95a921ga783g4955g9cd5ge9b5ba8e715a" version="1">Sei impossibilmente ricco.</content>
+</contentList>
